@@ -1,6 +1,13 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
+@import "./helpers/utilities-bs5";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import "./helpers/_base.SCSS";
+@import "./helpers/mixin";
+@import "./helpers/grid";
+@import "./helpers/utilities";
 
 
-@import './layout/index.scss'
+@import "./layout/index.scss";
+@import "./layout/header";

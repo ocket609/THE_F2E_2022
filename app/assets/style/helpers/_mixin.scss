@@ -1,0 +1,16 @@
+/*
+PC
+pad
+mobile
+*/
+
+@mixin pad {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+@mixin modile {
+    @media (max-width: 576px) {
+        @content;
+    }
+}
