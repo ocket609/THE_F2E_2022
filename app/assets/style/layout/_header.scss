@@ -7,9 +7,14 @@
     height: auto;
   }
   .list-nav{
-    padding: 8px 16px;
+    color: $color-2;
+    /*於html下顏色"text-color-2"，hover會無法使用，不知道為何。只好以class下顏色*/
+    padding: 24px 16px;
+    &:hover{
+      color: $color-3;
+    }
   }
-  li{
-    padding: 16px 0;
+  .navbar-menuList:hover{
+    background: $color-4;
   }
 }
