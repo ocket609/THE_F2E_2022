@@ -17,4 +17,11 @@
   .navbar-menuList:hover{
     background: $color-4;
   }
+
+}
+@include mobile{
+  .img-nav{
+    width: 179px;
+  }
+
 }

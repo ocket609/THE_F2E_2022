@@ -1,5 +1,26 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+//banner
+.banner{
+  width: 100%;
+  max-height: 707px;
+  background-image: url(https://s3-alpha-sig.figma.com/img/67c5/aec3/dbcee1271e1b5a247185635a1ac60802?Expires=1669593600&Signature=Ej3QzmWBMnwfk0IaT7rh1nD5-e-1nGwwEkyrRBleUk67A38IWDVT~JO~BvSF6AuU5F9DTDlltcQuHJOL-nHRoaqmBgoM1LU8SfKSg8p~2pJ9jBn~vnkoiWUhfzot0-63BDKz-roLR4p-~~ktrCWXwwOeBC5xyDTMV~TYa4X6GQSFuGkODg9i13sRW2Ve-W8EorCASsNmM5-Oih16L~ZhV2sK6atK6bol-1b8RX2i79QFXOd1034U3eHXVDhGiTUoI2a2H7siA-MtbM05eretZWcVob88uGAtMTYUDp1O0SOgWLuxV9rzlc2rpguCz1klGbTsxeStRBuoD5lUVQcLiA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 63px 0 316.54px 43px;
+  &-img{
+    max-width: 356px;
+    height: auto;
+  }
+  h1{
+    padding-top: 26px;
+    padding-left: 475px;
+  }
 }
+
+//copywriter /*文案*/
+//suitable /*合適*/
+//main /*主要的*/
+//illustrate /*說明*/
+//contest /*比賽*/
+//join /*加入*/
+//sponsor /*贊助*/
