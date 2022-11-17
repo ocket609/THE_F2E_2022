@@ -9061,6 +9061,10 @@ fieldset:disabled .btn {
   font-size: calc(1.3125rem + 0.75vw) !important;
 }
 
+.fs-10 {
+  font-size: calc(1.35rem + 1.2vw) !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -9103,6 +9107,10 @@ fieldset:disabled .btn {
 
 .lh-lg {
   line-height: 2 !important;
+}
+
+.lh-2 {
+  line-height: 1.0625rem !important;
 }
 
 .text-start {
@@ -10094,6 +10102,9 @@ fieldset:disabled .btn {
   .fs-sm-9 {
     font-size: calc(1.3125rem + 0.75vw) !important;
   }
+  .fs-sm-10 {
+    font-size: calc(1.35rem + 1.2vw) !important;
+  }
   .fw-sm-light {
     font-weight: 300 !important;
   }
@@ -10120,6 +10131,9 @@ fieldset:disabled .btn {
   }
   .lh-sm-lg {
     line-height: 2 !important;
+  }
+  .lh-sm-2 {
+    line-height: 1.0625rem !important;
   }
   .text-sm-start {
     text-align: left !important;
@@ -10849,6 +10863,9 @@ fieldset:disabled .btn {
   .fs-md-9 {
     font-size: calc(1.3125rem + 0.75vw) !important;
   }
+  .fs-md-10 {
+    font-size: calc(1.35rem + 1.2vw) !important;
+  }
   .fw-md-light {
     font-weight: 300 !important;
   }
@@ -10875,6 +10892,9 @@ fieldset:disabled .btn {
   }
   .lh-md-lg {
     line-height: 2 !important;
+  }
+  .lh-md-2 {
+    line-height: 1.0625rem !important;
   }
   .text-md-start {
     text-align: left !important;
@@ -11604,6 +11624,9 @@ fieldset:disabled .btn {
   .fs-lg-9 {
     font-size: calc(1.3125rem + 0.75vw) !important;
   }
+  .fs-lg-10 {
+    font-size: calc(1.35rem + 1.2vw) !important;
+  }
   .fw-lg-light {
     font-weight: 300 !important;
   }
@@ -11630,6 +11653,9 @@ fieldset:disabled .btn {
   }
   .lh-lg-lg {
     line-height: 2 !important;
+  }
+  .lh-lg-2 {
+    line-height: 1.0625rem !important;
   }
   .text-lg-start {
     text-align: left !important;
@@ -12359,6 +12385,9 @@ fieldset:disabled .btn {
   .fs-xl-9 {
     font-size: calc(1.3125rem + 0.75vw) !important;
   }
+  .fs-xl-10 {
+    font-size: calc(1.35rem + 1.2vw) !important;
+  }
   .fw-xl-light {
     font-weight: 300 !important;
   }
@@ -12385,6 +12414,9 @@ fieldset:disabled .btn {
   }
   .lh-xl-lg {
     line-height: 2 !important;
+  }
+  .lh-xl-2 {
+    line-height: 1.0625rem !important;
   }
   .text-xl-start {
     text-align: left !important;
@@ -13114,6 +13146,9 @@ fieldset:disabled .btn {
   .fs-xxl-9 {
     font-size: calc(1.3125rem + 0.75vw) !important;
   }
+  .fs-xxl-10 {
+    font-size: calc(1.35rem + 1.2vw) !important;
+  }
   .fw-xxl-light {
     font-weight: 300 !important;
   }
@@ -13140,6 +13175,9 @@ fieldset:disabled .btn {
   }
   .lh-xxl-lg {
     line-height: 2 !important;
+  }
+  .lh-xxl-2 {
+    line-height: 1.0625rem !important;
   }
   .text-xxl-start {
     text-align: left !important;
@@ -13168,6 +13206,9 @@ fieldset:disabled .btn {
   .fs-9 {
     font-size: 1.875rem !important;
   }
+  .fs-10 {
+    font-size: 2.25rem !important;
+  }
   .fs-sm-1 {
     font-size: 3rem !important;
   }
@@ -13182,6 +13223,9 @@ fieldset:disabled .btn {
   }
   .fs-sm-9 {
     font-size: 1.875rem !important;
+  }
+  .fs-sm-10 {
+    font-size: 2.25rem !important;
   }
   .fs-md-1 {
     font-size: 3rem !important;
@@ -13198,6 +13242,9 @@ fieldset:disabled .btn {
   .fs-md-9 {
     font-size: 1.875rem !important;
   }
+  .fs-md-10 {
+    font-size: 2.25rem !important;
+  }
   .fs-lg-1 {
     font-size: 3rem !important;
   }
@@ -13212,6 +13259,9 @@ fieldset:disabled .btn {
   }
   .fs-lg-9 {
     font-size: 1.875rem !important;
+  }
+  .fs-lg-10 {
+    font-size: 2.25rem !important;
   }
 }
 
@@ -13302,10 +13352,24 @@ mobile
 }
 */
 /*color m p fz*/
-.index__h1 {
-  color: #00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.banner {
+  width: 100%;
+  max-height: 707px;
+  background-image: url(https://s3-alpha-sig.figma.com/img/67c5/aec3/dbcee1271e1b5a247185635a1ac60802?Expires=1669593600&Signature=Ej3QzmWBMnwfk0IaT7rh1nD5-e-1nGwwEkyrRBleUk67A38IWDVT~JO~BvSF6AuU5F9DTDlltcQuHJOL-nHRoaqmBgoM1LU8SfKSg8p~2pJ9jBn~vnkoiWUhfzot0-63BDKz-roLR4p-~~ktrCWXwwOeBC5xyDTMV~TYa4X6GQSFuGkODg9i13sRW2Ve-W8EorCASsNmM5-Oih16L~ZhV2sK6atK6bol-1b8RX2i79QFXOd1034U3eHXVDhGiTUoI2a2H7siA-MtbM05eretZWcVob88uGAtMTYUDp1O0SOgWLuxV9rzlc2rpguCz1klGbTsxeStRBuoD5lUVQcLiA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 63px 0 316.54px 43px;
+}
+
+.banner-img {
+  max-width: 356px;
+  height: auto;
+}
+
+.banner h1, .banner .h1 {
+  padding-top: 26px;
+  padding-left: 475px;
 }
 
 .header .navbar {
@@ -13329,6 +13393,12 @@ mobile
 
 .header .navbar-menuList:hover {
   background: #F9D1FF;
+}
+
+@media (max-width: 576px) {
+  .img-nav {
+    width: 179px;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */
