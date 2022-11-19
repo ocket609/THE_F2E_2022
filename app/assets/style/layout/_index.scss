@@ -12,12 +12,47 @@
     height: auto;
   }
   h1{
-    padding-top: 26px;
+    padding-top: 26px; /*356-327.46=28.54，54.54-28.54*/
     padding-left: 475px;
   }
 }
-
+@include pad{
+  .banner{
+    max-height: 696px;
+    background-image: url(https://s3-alpha-sig.figma.com/img/d7b5/5225/7f082d2e09e08a7e6026ad1abcab8d4b?Expires=1669593600&Signature=AkNz7KOB5DzXaCW973eT0Q4UzzJoqM37mlqGSQCiejcCKUNFSVofJ-psW5Fd-gMFmC42zJkc~iaD5Q9T478lJS8oNSVIQRP73NwMbDPmBYUX1i7giUXpMJvAke1rVgn8LS-6l6p4RabXG3A1iNfYznYZbmVxEqGAKol2lgPCR7N9rsaxCZJuixz~gTWt6Uo8DJx54~wJ8E6uDpMVOJFtbF56w7B5Gak4WYtSucwu-JyCmhLXxkDPWuomva9q24w2VLVrPAXb8GGmyskEB~nmT3BWdQnaHuLcgOoDyseFWOBizMldPPleeLTwb7bSfBCn~LfOYxUzEwjr8OiWQnQN7w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    padding: 167px 0 337px 26px;
+    &-img{
+      max-width: 209px;
+    }
+    h1{
+      padding-top: 104px; /*209-192=17，121-17*/
+      padding-left: 197px;
+    }
+  }
+}
+@include mobile{
+  .banner{
+    max-height: 512px;
+    padding: 133px 0 249px 16px;
+    &-img{
+      max-width: 142px;
+    }
+    h1{
+      padding-top: 80px; /*142-130=12，92-12*/
+      padding-left: 160px;
+    }
+  }
+}
 //copywriter /*文案*/
+.copywriter{
+  background-color: #FDF7E8;
+  padding: 88px 0;
+  p{
+    width: 856px;
+    height: 51px;
+    border-radius: 10px;
+  }
+}
 //suitable /*合適*/
 //main /*主要的*/
 //illustrate /*說明*/
