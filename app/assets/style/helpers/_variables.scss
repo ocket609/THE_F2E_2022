@@ -265,6 +265,8 @@ $spacers: (
   5: $spacer * 3, //48
   20: $spacer * 1.25, //20
   40: $spacer * 2.5, //40
+  31: 31px, //31
+  35: 35px, //40
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -450,7 +452,8 @@ $font-weight-base:            $font-weight-normal !default;
 $line-height-base:            1.5 !default; //24
 $line-height-sm:              1.25 !default; //20
 $line-height-lg:              2 !default; //32
-$line-height-2:               17px !default; //32
+$line-height-2:               17px !default; //17
+$line-height-3:               19px !default; //19
 
 $h1-font-size:                $font-size-base * 3 !default; //48
 $h2-font-size:                $font-size-base * 2 !default; //32
