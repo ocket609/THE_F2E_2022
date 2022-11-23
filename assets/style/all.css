@@ -14215,14 +14215,50 @@ mobile
 .suitable-bg {
   width: 1076px;
   height: 807px;
+  position: relative;
+  /*不能從html呈現，會跑位*/
   /*width: auto;
     max-height: 807px;*/
   background-image: url(https://s3-alpha-sig.figma.com/img/6ef1/1364/a42c30b88089a1cf9d445664dfef5bb5?Expires=1669593600&Signature=GIRwVywqfMFU~nKn971et-2RoSER~qYVmRK7FkEYYA9hjvg8nEhSJR5Wh4yK8m7QXp0EE6IN0yYS0~lVFkzFrusKD889OR4nS6WlY4Xt5OcRLi3zSNUDssBEDdpKpbys5PALle23XmkYT0oEzZmmya4fvNFFfBXwqnNQSbgKIuDU1laLXTGWcpkPdVc95b8F1XlZOnGDKMHbdHi-5UTu3ExQLtbOWSawwB-aCouJYseoro6xj1TApjmfvd15kNRZl0sYHucu0GeunuhfyXJhNpfM-A0PFwD4jmexRBkO0K8iVX1n0Co8dSJZMLClZkyAhSZbQzJuj-ykWG2xy3hJRg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   border: 1px solid #E335FF;
   border-radius: 20px;
+}
+
+.suitable-bg::after {
+  content: "互動式網頁設計";
+  position: absolute;
+  /*
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      */
+  /* 上-方法一與下-方法二，皆可讓偽元素垂直置中*/
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFF;
+  font-size: 3rem;
+  line-height: 1.2;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  /*文字垂直*/
+  -webkit-text-orientation: upright;
+          text-orientation: upright;
+  /*文字垂直*/
 }
 
 .suitable-imgR, .suitable-imgL {
@@ -14232,6 +14268,42 @@ mobile
 
 .suitable-imgR {
   margin-right: 335px;
+}
+
+@media (max-width: 768px) {
+  .suitable-bg {
+    width: 632px;
+    height: 570px;
+  }
+  .suitable-bg::after {
+    font-size: 1.5rem;
+  }
+  .suitable-imgR, .suitable-imgL {
+    max-width: 186px;
+    padding-top: 206px;
+  }
+  .suitable-imgR {
+    margin-left: 42px;
+    margin-right: 164px;
+  }
+}
+
+@media (max-width: 576px) {
+  .suitable-bg {
+    width: 464px;
+    height: 464px;
+  }
+  .suitable-bg::after {
+    font-size: 1.25rem;
+  }
+  .suitable-imgR, .suitable-imgL {
+    max-width: 151px;
+    padding-top: 170px;
+  }
+  .suitable-imgR {
+    margin-left: 29px;
+    margin-right: 118px;
+  }
 }
 
 .header .navbar {
