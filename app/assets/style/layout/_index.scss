@@ -189,6 +189,50 @@
   }
 }
 //main /*主要的*/
+.main{
+  padding: 88px 0;
+  .row{
+    padding: 0 110px;
+  }
+  .card{
+    width: 342.67px;
+    border-color: $color-3;
+    border-radius: 20px;
+    img{
+      width: auto;
+      height: 233px;
+      border-radius: 20px 20px 0 0;
+    }
+    &-footer{
+      border-color: $color-3;
+      border-radius: 0 0 20px 20px;
+    }
+  }
+  .card-down{
+    z-index: 1;
+    p{
+      position: relative;
+    }
+    ::before{
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: 5px;
+      width: 150px;
+      height: 51px;
+      background: $color-1;
+      border: 1px solid #E335FF;
+      z-index: -2;
+    }
+  }
+}
+@include pad{
+  .main{
+    .row{
+      padding: 0;
+    }
+  }
+}
 //illustrate /*說明*/
 //contest /*比賽*/
 //join /*加入*/
