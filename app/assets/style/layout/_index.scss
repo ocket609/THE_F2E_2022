@@ -228,9 +228,9 @@
       border: 1px solid #E335FF;
       z-index: -2;
     }
-    /*&:hover{
+    &:hover{
       display: block;
-    }*/
+    }
   }
   .card-down:hover{
     display: block;
@@ -244,6 +244,9 @@
   }
 }
 //illustrate /*說明*/
+.illustrate{
+  padding: 88px 0;
+}
 //contest /*比賽*/
 //join /*加入*/
 //sponsor /*贊助*/
