@@ -15323,9 +15323,6 @@ mobile
 .main .card-down {
   display: none;
   z-index: 1;
-  /*&:hover{
-      display: block;
-    }*/
 }
 
 .main .card-down p {
@@ -15348,10 +15345,18 @@ mobile
   display: block;
 }
 
+.main .card-down:hover {
+  display: block;
+}
+
 @media (max-width: 768px) {
   .main .row {
     padding: 0;
   }
+}
+
+.illustrate {
+  padding: 88px 0;
 }
 
 .header .navbar {
