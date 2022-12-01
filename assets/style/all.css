@@ -15316,8 +15316,16 @@ mobile
   border-radius: 0 0 20px 20px;
 }
 
+.main .card-up:hover {
+  display: none;
+}
+
 .main .card-down {
+  display: none;
   z-index: 1;
+  /*&:hover{
+      display: block;
+    }*/
 }
 
 .main .card-down p {
@@ -15334,6 +15342,10 @@ mobile
   background: #F8CC46;
   border: 1px solid #E335FF;
   z-index: -2;
+}
+
+.main .card-down:hover {
+  display: block;
 }
 
 @media (max-width: 768px) {
