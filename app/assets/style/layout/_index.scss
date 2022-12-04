@@ -208,11 +208,12 @@
       border-radius: 0 0 20px 20px;
     }
   }
-  .card-up:hover{
+  /*.card-up:hover{
     display: none;
-  }
+  }*/
   .card-down{
     display: none;
+    padding: 180px 0;
     z-index: 1;
     p{
       position: relative;
@@ -228,12 +229,18 @@
       border: 1px solid #E335FF;
       z-index: -2;
     }
-    &:hover{
+    /*&:hover{
       display: block;
-    }
+    }*/
   }
-  .card-down:hover{
+  /*.card-down:hover{
     display: block;
+  }*/
+  .text:hover .card-up{
+    display: none;
+  }
+  .text:hover .card-down{
+    display: flex !important;
   }
 }
 @include pad{
