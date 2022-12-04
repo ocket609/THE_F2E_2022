@@ -15293,6 +15293,12 @@ mobile
 
 .main {
   padding: 88px 0;
+  /*.card-up:hover{
+    display: none;
+  }*/
+  /*.card-down:hover{
+    display: block;
+  }*/
 }
 
 .main .row {
@@ -15316,13 +15322,13 @@ mobile
   border-radius: 0 0 20px 20px;
 }
 
-.main .card-up:hover {
-  display: none;
-}
-
 .main .card-down {
   display: none;
+  padding: 180px 0;
   z-index: 1;
+  /*&:hover{
+      display: block;
+    }*/
 }
 
 .main .card-down p {
@@ -15341,12 +15347,14 @@ mobile
   z-index: -2;
 }
 
-.main .card-down:hover {
-  display: block;
+.main .text:hover .card-up {
+  display: none;
 }
 
-.main .card-down:hover {
-  display: block;
+.main .text:hover .card-down {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
 }
 
 @media (max-width: 768px) {
