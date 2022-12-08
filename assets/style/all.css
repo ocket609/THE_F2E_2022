@@ -15364,7 +15364,37 @@ mobile
 }
 
 .illustrate {
-  padding: 88px 0;
+  background-color: #FDF7E8;
+  padding: 88px 110px;
+}
+
+.illustrate .nav-link {
+  color: #000;
+  padding: 16px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.illustrate .nav-pills .nav-link.active {
+  /*尚未搞懂為何是".nav-pills .nav-link.active"這樣才能修改tab切換狀態的樣式*/
+  /*從檢查裡看到呈現的是
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+      color: #000;
+      background-color: #fff;
+    }*/
+  color: #000;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .illustrate {
+    padding: 80px 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .illustrate {
+    padding: 40px 32px;
+  }
 }
 
 .header .navbar {
