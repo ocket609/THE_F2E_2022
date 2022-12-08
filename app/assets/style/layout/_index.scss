@@ -252,7 +252,33 @@
 }
 //illustrate /*說明*/
 .illustrate{
-  padding: 88px 0;
+  background-color: #FDF7E8;
+  padding: 88px 110px;
+  .nav-link{
+    color: #000;
+    padding: 16px 0;
+    border-radius: 10px 10px 0 0;
+  }
+  .nav-pills .nav-link.active{
+    /*尚未搞懂為何是".nav-pills .nav-link.active"這樣才能修改tab切換狀態的樣式*/
+    /*從檢查裡看到呈現的是
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+      color: #000;
+      background-color: #fff;
+    }*/
+    color: #000;
+    background-color: #fff;
+  }
+}
+@include pad{
+  .illustrate{
+    padding: 80px 32px;
+  }
+}
+@include mobile{
+  .illustrate{
+    padding: 40px 32px;
+  }
 }
 //contest /*比賽*/
 //join /*加入*/
